@@ -1,0 +1,9 @@
+{
+  "name": "ngx-reactive-guards",
+  "version": "0.0.1",
+  "description": "Reactive, cancellable, zoneless route guards for Angular",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  }
+}
