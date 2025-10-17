@@ -1,2 +1,1 @@
 [![npm version](https://badge.fury.io/js/ngx-reactive-guards.svg)](https://www.npmjs.com/package/ngx-reactive-guards)
-[![GitHub Repo](https://img.shields.io/badge/github-alepel%2Fngx--reactive--guards-blue)](https://github.com/alepel/ngx-reactive-guards)
