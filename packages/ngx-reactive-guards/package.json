@@ -1,6 +1,6 @@
 {
   "name": "ngx-reactive-guards",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reactive, cancellable, zoneless route guards for Angular",
   "license": "MIT",
   "repository": {
