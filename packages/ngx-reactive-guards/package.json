@@ -1,6 +1,19 @@
 {
   "name": "ngx-reactive-guards",
   "version": "0.0.1",
+  "description": "Reactive, cancellable, zoneless route guards for Angular",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessiopelliccione/ngx-reactive-guards.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alessiopelliccione/ngx-reactive-guards/issues"
+  },
+  "homepage": "https://github.com/alessiopelliccione/ngx-reactive-guards#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "@angular/common": "^20.3.0",
     "@angular/core": "^20.3.0"
