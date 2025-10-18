@@ -12,7 +12,6 @@
       "options": {
         "outputPath": "dist/apps/demo",
         "browser": "apps/demo/src/main.ts",
-        "polyfills": ["zone.js"],
         "tsConfig": "apps/demo/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
