@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "ngx-reactive-guards": ["packages/ngx-reactive-guards/src/index.ts"]
+      "ngx-reactive-guards": ["packages/ngx-reactive-guards/src/index.ts"],
+      "@pages": ["apps/demo/src/app/pages/index.ts"],
+      "@pages/*": ["apps/demo/src/app/pages/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]

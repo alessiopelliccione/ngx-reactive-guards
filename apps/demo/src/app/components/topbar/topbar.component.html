@@ -1,0 +1,28 @@
+<nav style="display:flex;gap:12px;align-items:center">
+  <a routerLink="/">Home</a>
+  <a routerLink="/admin">Admin</a>
+  <a routerLink="/profile">Profile</a>
+  <a routerLink="/playground">Playground</a>
+
+  <span style="margin-left:auto"></span>
+
+  @if (auth.isLoggedIn()) {
+  <span>Logged ✓ ({{ auth.role() ?? 'user' }})</span>
+  <button (click)="auth.setRole('user')">User</button>
+  <button (click)="auth.setRole('admin')">Admin</button>
+  <button (click)="auth.logout()">Logout</button>
+  } @else {
+  <button (click)="auth.login('user')">Login User</button>
+  <button (click)="auth.login('admin')">Login Admin</button>
+  }
+
+  <label>
+    <input type="checkbox" [checked]="flags.adminSection()" (change)="flags.adminSection.set($event.target.checked)" />
+    Flag: adminSection
+  </label>
+  <label>
+    <input type="checkbox" [checked]="flags.experimentalProfile()" (change)="flags.experimentalProfile.set($event.target.checked)" />
+    Flag: experimentalProfile
+  </label>
+</nav>
+<hr />
